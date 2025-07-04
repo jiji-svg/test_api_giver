@@ -26,4 +26,4 @@ jobs:
       - name: Run catapi script
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: python catapi_slack.py
+        run: python get_cat_pictures.py
